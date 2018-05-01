@@ -1,6 +1,6 @@
 $(document).ready(takeSnap);
 
-
+console.log('v.04');
 
 function takeSnap(){
     var htmlCode = "not working";
