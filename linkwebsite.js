@@ -4,7 +4,7 @@ $(document).ready(takeSnap);
 
 function takeSnap(){
     var htmlCode = "not working";
-    $.getJSON('http://anyorigin.com/go?url=https%3A//sunspot.sdsu.edu/schedule/search%3Fmode%3Dsearch%26period%3D20184%26admin_unit%3DR%26abbrev%3DCS%26number%3D%26suffix%3D%26courseTitle%3D%26scheduleNumber%3D%26units%3D%26instructor%3D%26facility%3D%26space%3D%26meetingType%3D%26startHours%3D%26startMins%3D%26endHours%3D%26endMins%3D%26remaining_seats_at_least%3D%26ge%3D&callback=?', function(data){
+    $.getJSON('https://anyorigin.com/go?url=https%3A//sunspot.sdsu.edu/schedule/search%3Fmode%3Dsearch%26period%3D20184%26admin_unit%3DR%26abbrev%3DCS%26number%3D%26suffix%3D%26courseTitle%3D%26scheduleNumber%3D%26units%3D%26instructor%3D%26facility%3D%26space%3D%26meetingType%3D%26startHours%3D%26startMins%3D%26endHours%3D%26endMins%3D%26remaining_seats_at_least%3D%26ge%3D&callback=?', function(data){
 
         var body=data.contents.replace(/^.*?<body>(.*?)<\/body>.*?$/s,"$1");
         $('#test').html(body);
