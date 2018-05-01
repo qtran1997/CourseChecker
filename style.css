@@ -1,0 +1,21 @@
+html{
+    width:100vw;
+    height:100vh;
+    position:relative;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    position:relative;
+    padding:10px;
+}
+
+#login-box{
+    margin:auto;
+    display:block;
+}
+
+#login-box *{
+    display:block;
+}
